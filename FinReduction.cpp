@@ -14,13 +14,13 @@ int main(int argc, char* argv[]) {
     start = time(NULL);
 
     //定义不同的快递公司对象
-    Express yunda("韵达","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/yunda.txt");
-    Express ems("EMS","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/ems.txt");
-    Express baishi("百世","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/baishi.txt");
-    Express debang("德邦","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/debang.txt");
-    Express shentong("申通","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/shentong.txt");
-    Express yuantong("圆通","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/yuantong.txt");
-    Express zhongtong("中通","/Users/lousiyuan/cainiao_work/fin_fee_reduction/kuaidi_price/zhongtong.txt");
+    Express yunda("韵达","~/yunda.txt");
+    Express ems("EMS","~/ems.txt");
+    Express baishi("百世","~/baishi.txt");
+    Express debang("德邦","~/debang.txt");
+    Express shentong("申通","~/shentong.txt");
+    Express yuantong("圆通","~/yuantong.txt");
+    Express zhongtong("中通","~/zhongtong.txt");
 
     vector<Express> expressVec;
     expressVec.push_back(yunda);
